@@ -34,6 +34,6 @@ public class PlayerController : MonoBehaviour
         Vector2 movement = new(moveX, moveY);
         movement.Normalize();
 
-        _playerRigidbody.velocity = movement * PlayerModel.Speed;
+        _playerRigidbody.velocity = movement * PlayerModel.Speed;   
     }
 }
